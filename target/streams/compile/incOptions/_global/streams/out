@@ -1,0 +1,14 @@
+[debug] Created transactional ClassFileManager with tempDir = E:\Projects\zio-playground\target\scala-2.13\classes.bak
+[debug] About to delete class files:
+[debug] 	Test$delayedInit$body.class
+[debug] 	Test.class
+[debug] 	Test$.class
+[debug] We backup class files:
+[debug] 	Test$delayedInit$body.class
+[debug] 	Test.class
+[debug] 	Test$.class
+[debug] Registering generated classes:
+[debug] 	Test$delayedInit$body.class
+[debug] 	Test.class
+[debug] 	Test$.class
+[debug] Removing the temporary directory used for backing up class files: E:\Projects\zio-playground\target\scala-2.13\classes.bak

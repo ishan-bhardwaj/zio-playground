@@ -1,0 +1,14 @@
+[debug] > Exec(compile, None, None)
+[debug] Evaluating tasks: Compile / compile
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to E:\Projects\zio-playground\target\scala-2.13\classes ...
+[warn] E:\Projects\zio-playground\src\main\scala\com\examples\Test.scala:11:10: This catches all Throwables. If this is really intended, use `case _ : Throwable` to clear this warning.
+[warn]     case _ =>
+[warn]          ^
+[warn] E:\Projects\zio-playground\src\main\scala\com\examples\Test.scala:12:34: unreachable code
+[warn]     case ex: Exception => println("bla bla")
+[warn]                                  ^
+[warn] two warnings found
+[info] done compiling
+[success] Total time: 1 s, completed 30-Oct-2022, 12:24:46 AM
+[debug] > Exec(idea-shell, None, None)

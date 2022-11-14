@@ -1,0 +1,9 @@
+[debug] > Exec(all {file:/E:/Projects/zio-playground/}root/products {file:/E:/Projects/zio-playground/}root/test:products, None, None)
+[debug] Evaluating tasks: Compile / products, Test / products
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to E:\Projects\zio-playground\target\scala-2.13\classes ...
+[info] done compiling
+[success] Total time: 8 s, completed 22-Oct-2022, 1:10:22 PM
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)
