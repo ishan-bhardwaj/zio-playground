@@ -1,9 +1,0 @@
-[debug] Acquiring lock on file E:\Projects\zio-playground\project\target\.sbt-compilation-infos\root-compile\.sbt-idea-lock ...
-[warn] E:\Projects\zio-playground\src\main\scala\com\examples\Test.scala:11:10: This catches all Throwables. If this is really intended, use `case _ : Throwable` to clear this warning.
-[warn]     case _ =>
-[warn]          ^
-[warn] E:\Projects\zio-playground\src\main\scala\com\examples\Test.scala:12:34: unreachable code
-[warn]     case ex: Exception => println("bla bla")
-[warn]                                  ^
-[warn] two warnings found
-[debug] Releasing lock on file E:\Projects\zio-playground\project\target\.sbt-compilation-infos\root-compile\.sbt-idea-lock.
