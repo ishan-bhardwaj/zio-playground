@@ -22,7 +22,7 @@ object Effects {
   val anOption: Option[Int] = Option(42)
 
   /**
-   * Example - Future is NOT an effect
+   * Example 2 - Future is NOT an effect
    * - Type signature describes kind of computation = asynchronous computation
    * - Type signature says that the computation returns an A, if the computation finishes and it's successful
    * - Side effects are required - allocating the JVM thread and scheduling the computation on it
