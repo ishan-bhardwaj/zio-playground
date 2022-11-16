@@ -35,4 +35,16 @@ object ZIOEffects {
     _ <- ZIO.succeed(println(s"Welcome: $name"))
   } yield ()
 
+  /**
+   * ZIO provides a lot of combinators.
+   */
+  val zio1: ZIO[Any, Nothing, Int] = ZIO.succeed(42)
+  val zio2: ZIO[Any, Nothing, Int] = ZIO.succeed(45)
+
+  // zip - returns the tuple of both values
+  val tupledZIO: ZIO[Any, Nothing, (Int, Int)] = zio1.zip(zio2)
+
+  // zipWith - accepts lambda to combine both the values
+  val combined: ZIO[Any, Nothing, Int] = zio1.zipWith(zio2)(_ * _)
+
 }
