@@ -114,7 +114,7 @@ object ZIOEx {
 
     // Exercise 1
     println("Testing exercise 1 ==>")
-    Unsafe.unsafe { implicit u =>
+    Unsafe.unsafeCompat { implicit u =>
       val zioA = ZIO.succeed {
         println("Computing first effect")
         1
@@ -130,7 +130,7 @@ object ZIOEx {
 
     // Exercise 2
     println("Testing exercise 2 ==>")
-    Unsafe.unsafe { implicit u =>
+    Unsafe.unsafeCompat { implicit u =>
       val zioA = ZIO.succeed {
         println("Computing first effect")
         1
@@ -146,7 +146,7 @@ object ZIOEx {
 
     // Exercise 3
     println("Testing exercise 3 ==>")
-    /*Unsafe.unsafe { implicit u =>
+    /*Unsafe.unsafeCompat { implicit u =>
       val endlessLoop = runForever {
         ZIO.succeed {
           println("running.....")
@@ -159,7 +159,7 @@ object ZIOEx {
 
     // Exercise 6
     println("Testing exercise 6 ==>")
-    Unsafe.unsafe { implicit u =>
+    Unsafe.unsafeCompat { implicit u =>
       println(runtime.unsafe.run(sumZIO(20000))) // Will use trampoline technique, hence will succeed without any stackoverflow
     }
   }
